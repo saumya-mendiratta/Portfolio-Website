@@ -480,9 +480,14 @@ font-family: sans-serif;
   border-style: none;
   display: block;
   width: 95%;
+  color: white;
   border-bottom: 3px solid white;
   background:transparent ;
   padding: 15px;
+}
+
+input:focus {
+  outline: none;
 }
 #send-message{
   margin-top: 40px;
