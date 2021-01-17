@@ -400,6 +400,7 @@ section:nth-child(2n+1){
  
 .image-container img{
   /*width: 15rem;*/
+  box-shadow: 0 0 20px #292c2e;
   height: 15rem;
   background-size: cover;
 }
