@@ -337,19 +337,22 @@ section:nth-child(2n+1){
 }
 
 .experience-company-name {
-    margin: 5px 0 0;
+    /*margin: 5px 0 0;*/
+    margin-top: -4%;
     color: #eb822d;
     font-family: cursive;
     font-weight: 400;
     font-size: 1.2rem;
 }
 .experience-duration {
+    margin-top: -3%;
     color: #9e9b9b;
     font-weight: 100;
     color: grey;
     font-size: 1rem;
 }
 .experience-description {
+   margin-top: -2%;
     font-size: 14px;
     padding: 2px;
     color: grey;
@@ -358,7 +361,9 @@ section:nth-child(2n+1){
 .text-align-justify {
     text-align: justify;
 }
-
+.grade{
+  margin-top: -3%;
+}
 
 .timeline-divider{
   position: absolute;
