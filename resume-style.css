@@ -556,7 +556,8 @@ font-family: -webkit-pictograph;
 }
 
 .mb-blue {
-    background-color: #2857a4;
+  background: linear-gradient(to right , #2857a4 , #403066);
+  opacity: 0.9;
 }
 
 .mb-orange {
@@ -577,10 +578,25 @@ font-family: -webkit-pictograph;
 
 /*Percentage Classes*/
 
+.sixty-percent{
+  width: 60%;
+  height: inherit;
+}
 .eighty-percent{
   width: 80%;
   height: inherit;
 }
+
+.eighty-five-percent{
+  width: 85%;
+  height: inherit;
+
+}
+.ninty-percent{
+  width: 90%;
+  height: inherit;
+}
+
 
 
 
