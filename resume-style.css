@@ -246,13 +246,18 @@ section:nth-child(2n+1){
 }
 
 .skills-name{
+  justify-content: center;
    text-align: center;
+   /* overflow-x: visible; */
+   position: absolute;
+   /* padding: 5%; */
 }
 
 .skills-name span{
    color: white;
    font-size: 20px;
    margin:4px auto;
+   padding-left: 1rem;
    font-family: monospace;
 }
 
