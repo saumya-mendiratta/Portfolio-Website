@@ -5,6 +5,10 @@ body{
     zoom: 90%; /* Webkit browsers */
 
 }
+/* ------Hiding Scrollbar ------------- */
+body::-webkit-scrollbar {
+	display: none;
+}
 
 /*Body Header*/
 
@@ -151,9 +155,6 @@ section{
  
 }
  
-:not( section contact){
-    padding-bottom: 50px;
-  }
 section:nth-child(2n){
        background-color: #f0f0f0;
 }
