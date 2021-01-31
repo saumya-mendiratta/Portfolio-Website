@@ -1,10 +1,11 @@
 body{
-	margin: 0px;
+  margin: 0px;
    -moz-transform: scale(0.9, 0.9); /* Moz-browsers */
     zoom: 0.9; /* Other non-webkit browsers */
     zoom: 90%; /* Webkit browsers */
 
 }
+
 /* ------Hiding Scrollbar ------------- */
 body::-webkit-scrollbar {
 	display: none;
@@ -14,11 +15,11 @@ body::-webkit-scrollbar {
 
 #body-header{
     margin-top: -16px;
-	opacity: 0.95;
-	height: 500px;
+  opacity: 0.95;
+  height: 500px;
   width: 100%;
-	background-image: url(https://i.redd.it/8sqkca4mtvl21.jpg);
-	background-attachment: fixed;
+  background-image: url(https://i.redd.it/8sqkca4mtvl21.jpg);
+  background-attachment: fixed;
 }
 
 /*NAV MENU*/
@@ -86,7 +87,7 @@ body::-webkit-scrollbar {
 }
 
 .horizontal-list li{
-	font-size: 25px;
+  font-size: 25px;
     display: inline-block;
     margin: 0px 25px 25px 0px;
 }
@@ -112,13 +113,13 @@ nav .horizontal-list li a{
 
 /*Name*/
 #name{
-	font-family: cursive;
-	letter-spacing: 0.2rem;
-	 padding-top: 3%;
+  font-family: cursive;
+  letter-spacing: 0.2rem;
+   padding-top: 3%;
    margin-bottom: 2%;
-	color: lightgrey;
-	text-align: center;
-	font-size: 63px;
+  color: lightgrey;
+  text-align: center;
+  font-size: 63px;
   font-weight: bolder;
 }
 
@@ -185,7 +186,7 @@ section:nth-child(2n+1){
   }
 
 .social-icons li a i:hover{
-	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.2);
+  box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.2);
 }
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -196,22 +197,22 @@ section:nth-child(2n+1){
 }
 #image{
 
-	position: relative;
+  position: relative;
      text-align: center;
      margin-top: -9%;
 }
 #image img{
-	border: 2px solid lightgrey;
-	box-shadow: 0px 0px 4px 8px rgba(230,196,196,0.2);
-	height: 275px;
-	width: 287px;
-	border-radius: 50%;
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 4px 8px rgba(230,196,196,0.2);
+  height: 275px;
+  width: 287px;
+  border-radius: 50%;
 }
 
 #about-info{
 
-	margin:0px 10vw;
-	font-size: 30px;
+  margin:0px 10vw;
+  font-size: 30px;
     font-style: italic;
     font-family: system-ui;
     color: #28292a;
@@ -240,8 +241,8 @@ section:nth-child(2n+1){
 .skills-progress{
   margin-top: 3%;
   margin:20px;
-  width: 13rem;
-  height: 1.8rem;
+  width: 15rem;
+  height: 1.9rem;
   background-color: #979494;
   border-radius: 0.8rem;
 }
@@ -426,6 +427,7 @@ section:nth-child(2n+1){
   /*width: 15rem;*/
   box-shadow: 0 0 20px #292c2e;
   height: 15rem;
+  border-radius: 9px;
   background-size: cover;
 }
  .image-details{
@@ -441,12 +443,44 @@ section:nth-child(2n+1){
  }
 .image-details p{
   padding: 10px;
+  padding-bottom:0;
 }
+.link-icon{
+  margin-top: -5%;
+  position: absolute;
+  left: 43%;
+  height: 45px;
+  width: 50px;
+  display: flex;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 5s ease-in-out;
+  color: black;
+  background-color: white;
+  display: none;
+}
+.link-icon i{
+
+  position: relative;
+  /* margin: auto; */
+  top: -5px;
+  font-size: 1.6rem;
+  transition: all 5s ease-in-out;
+  color: black;
+  /* display: none; */
+
+}
+
 
 .image-container:hover .image-details {
   box-shadow: 0 0 20px #74ADC8;
     background-color: #80808078;
     color:white ;
+    /* color: black; */
+    
+  }
+.image-container:hover .link-icon{
+  display: inline;
 }
 
 
@@ -557,8 +591,9 @@ font-family: -webkit-pictograph;
 }
 
 .mb-blue {
-  background: linear-gradient(to right , #2857a4 , #403066);
-  opacity: 0.9;
+    /* background-color: #2857a4; */
+    background: linear-gradient(to right , #2857a4 , #403066);
+    opacity: 0.9;
 }
 
 .mb-orange {
