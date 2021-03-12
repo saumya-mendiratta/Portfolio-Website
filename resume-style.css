@@ -491,14 +491,16 @@ section:nth-child(2n+1){
   /*COUNTER SECTION*/
 
   .counter-section{
-    /*background-image: url("https://images.wallpaperscraft.com/image/board_black_line_texture_background_wood_55220_300x168.jpg");*/
-    background-image: url("https://image.freepik.com/free-vector/abstract-black-red-shiny-tech-fold-shadow-background_1408-564.jpg");
+    background-image: url(https://image.freepik.com/free-vector/abstract-black-red-shiny-tech-fold-shadow-background_1408-564.jpg);
     opacity: 0.95;
     min-height: 350px;
     display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    justify-content: center;
 
   }
 
