@@ -513,8 +513,8 @@ section:nth-child(2n+1){
   flex-direction: row;
   flex-wrap: wrap;
  
-
 }
+
 .counter-container p{
  font-weight: bold;
 font-family: sans-serif;
@@ -695,6 +695,10 @@ font-family: -webkit-pictograph;
     text-align: left !important;
    }
 
+   .counter-container{
+
+   padding-left: 15%;
+  }
    #image{
      
      margin-top: -15%;
