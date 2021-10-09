@@ -379,10 +379,10 @@ section:nth-child(2n+1){
 
 .timeline-divider{
   position: absolute;
-    height: 76%;
+    height: 82%;
     width: 0;
     left: 50%;
-    top: 7%;
+    top: 5%;
     border: 3px solid lightgrey;
     background-color: lightgrey;
     border-radius: 2rem 0;
